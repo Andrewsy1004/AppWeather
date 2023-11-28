@@ -27,8 +27,9 @@ const App = () => {
       });
     } else {
       try {
-        const response = await axios.get(
-          `https://api.openweathermap.org/data/2.5/weather?q=${city},${pais}&appid=${process.env.REACT_APP_APPID}`
+         const appiK = process.env.REACT_APP_APPID; 
+         const response = await axios.get(
+          `https://api.openweathermap.org/data/2.5/weather?q=${city},${pais}&appid=${appiK}`
         );
 
         setWeatherData(response.data);
