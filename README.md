@@ -16,7 +16,7 @@
 
 ## Despliegue 🌐
 
-La aplicación está desplegada y accesible en [https://app-weather-mauve.vercel.app/](https://app-weather-mauve.vercel.app/).
+La aplicación está desplegada y accesible en [https://app-weather-mauve.vercel.app/](https://app-weather-omega-five.vercel.app/).
 
 ## Empezando 🚀
 
