@@ -27,7 +27,7 @@ const App = () => {
       });
     } else {
       try {
-         const appiK = process.env.REACT_APP_APPID; 
+         const appiK = import.meta.env.VITE_appiKey;
          const response = await axios.get(
           `https://api.openweathermap.org/data/2.5/weather?q=${city},${pais}&appid=${appiK}`
         );
